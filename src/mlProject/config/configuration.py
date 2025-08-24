@@ -1,6 +1,15 @@
 from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
 from mlProject.entity.config_entity import DataIngestionConfig
+from pathlib import Path
+import sys
+import os
+
+# make sure Python knows about your src directory
+sys.path.append(os.path.abspath("src"))
+CONFIG_FILE_PATH = Path("config\config.yaml")
+PARAMS_FILE_PATH = Path("params.yaml")
+SCHEMA_FILE_PATH = Path("schema.yaml")
 
 class ConfigurationManager:
     def __init__(

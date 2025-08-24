@@ -76,3 +76,441 @@ Traceback (most recent call last):
   File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
     raise ValueError("yaml file is empty")
 ValueError: yaml file is empty
+[2025-08-24 15:53:18,303: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 15:53:18,303: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 15:53:18,319: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 15:53:18,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 15:53:18,319: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 15:53:42,216: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 15:53:42,216: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 15:53:42,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 15:53:42,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 15:53:42,217: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 15:57:39,185: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 15:57:39,185: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 15:57:39,188: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 15:57:39,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 15:57:39,191: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 15:58:11,234: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 15:58:11,235: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 15:58:11,237: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 15:58:11,238: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 15:58:11,239: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 15:58:41,432: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 15:58:41,433: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 15:58:41,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 15:58:41,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 15:58:41,438: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:01:55,455: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:01:55,455: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:01:55,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:01:55,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:01:55,463: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:02:56,426: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:02:56,427: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:02:56,430: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:02:56,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:02:56,432: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:24:54,947: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:24:55,020: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:24:55,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:24:55,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:24:55,038: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:28:25,186: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:28:25,188: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:34:16,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:34:25,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:34:51,373: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 22, in __init__
+    self.params = read_yaml(params_filepath)
+  File "c:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:38:58,638: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:38:58,639: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:38:58,641: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:38:58,643: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:38:58,643: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 22, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\ADARSH\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "g:\mlops_project\mlops_project\src\mlProject\utils\common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-24 16:40:35,815: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:40:35,815: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:40:35,818: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:40:35,819: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:40:35,821: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 16:40:35,822: INFO: common: created directory at: artifacts]
+[2025-08-24 16:40:35,823: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 16:40:37,272: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Date: Sun, 24 Aug 2025 11:10:36 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/Adarsh63/edureka_prcties.git
+x-raw-download: https://raw.githubusercontent.com/Adarsh63/edureka_prcties/main/2687_capstone_project_dataset_v1_vv6_ahjq7xz%20(1).zip
+ETag: W/"b0e5e4c63b28beb4d90946a375c79180"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=gsQxEcdAkV%2FC40If72nJBKzVFdRJs8X0%2BygiijucBtGR0bsA9qXNeV6XkIbPzACIV%2BNqsmMUHW%2BaoB3uFG2CKy%2BRmkQzejWVJbVQM9O3k5nxsmsPWXlYXUhvpPe5E%2B5uCIADh3m8aQ2qZU7W2ofuqPn3%2FZQHp%2Fw61knVp6T%2F7iBTOvDjyhZCfWNZwUldEWZYffFUNvp38h7JXllvjAEluV7%2FiDUndwyvLFvme0z0bmRqjSYvcY78tztmQJvmX1s2JBgEm45NH%2FmPGqrEchUK6Q%3D%3D--OI7D8SioEDDgGzbE--VMzL57OhXdLTsmFHKnXRfg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1372540623.1756033836; Path=/; Domain=github.com; Expires=Mon, 24 Aug 2026 11:10:36 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 24 Aug 2026 11:10:36 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: F11C:87532:DEA63F:1256CF4:68AAF32C
+connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-08-24 16:40:37,404: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "g:\mlops_project\mlops_project\src\mlProject\components\data_ingestion.py", line 36, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1266, in __init__
+    self._RealGetContents()
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1333, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-08-24 16:44:59,145: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:44:59,146: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:44:59,149: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:44:59,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:44:59,153: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 16:44:59,155: INFO: common: created directory at: artifacts]
+[2025-08-24 16:44:59,156: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 16:44:59,157: INFO: data_ingestion: File already exists of size: ~ 180 KB]
+[2025-08-24 16:44:59,247: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "g:\mlops_project\mlops_project\src\mlProject\components\data_ingestion.py", line 36, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1266, in __init__
+    self._RealGetContents()
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1333, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-08-24 16:56:23,227: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 16:56:23,227: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 16:56:23,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 16:56:23,235: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 16:56:23,236: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 16:56:23,250: INFO: common: created directory at: artifacts]
+[2025-08-24 16:56:23,251: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 16:56:24,321: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Date: Sun, 24 Aug 2025 11:26:24 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/Adarsh63/edureka_prcties.git
+x-raw-download: https://raw.githubusercontent.com/Adarsh63/edureka_prcties/main/2687_capstone_project_dataset_v1_vv6_ahjq7xz%20(1).zip
+ETag: W/"39edf8f3d7153b579183688b86295e1b"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=O3c905fsKcI4WnmP%2FBEpDOPfcNGWvJmp1nIc39oczMDtcU7ULLvJZUEjSAO3OoBwloPLyreu%2FBgTrK8QJYsETSfDzHf1avbnzD8WMmdbYOFU6zd%2F8sBFR7dFp7K3PjGevCXiXyETRAF0dJhnyW9XjKN4hQ4zvLUvQAk3rNthRv9h8y5uD5wte%2ByyesSOIjzk8SZkU1o11h%2Fkir4gkVfpKkRuufEdQeO5edWeUFivQG6jbhKZYekAI8AW7NfQIQ3AkonK%2FBO%2FQt1jzcrUP9oCEA%3D%3D--KZKMS1qnLxSsrDEb--LYLRaXQJPLQIVwUN1gP8xg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.760544046.1756034783; Path=/; Domain=github.com; Expires=Mon, 24 Aug 2026 11:26:23 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 24 Aug 2026 11:26:23 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: FC77:31F363:DFCCD6:1271A4A:68AAF6DF
+connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-08-24 16:56:24,601: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "g:\mlops_project\mlops_project\src\mlProject\components\data_ingestion.py", line 36, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1266, in __init__
+    self._RealGetContents()
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1333, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-08-24 17:00:24,317: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 17:00:24,318: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 17:00:24,322: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 17:00:24,323: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 17:00:24,325: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 17:00:24,326: INFO: common: created directory at: artifacts]
+[2025-08-24 17:00:24,328: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 17:00:24,328: INFO: data_ingestion: File already exists of size: ~ 180 KB]
+[2025-08-24 17:00:24,330: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "g:\mlops_project\mlops_project\src\mlProject\components\data_ingestion.py", line 36, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1266, in __init__
+    self._RealGetContents()
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1333, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-08-24 17:02:01,307: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 17:02:01,308: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 17:02:01,313: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 17:02:01,314: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 17:02:01,316: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 17:02:01,317: INFO: common: created directory at: artifacts]
+[2025-08-24 17:02:01,318: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 17:02:01,319: INFO: data_ingestion: File already exists of size: ~ 180 KB]
+[2025-08-24 17:02:01,321: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "g:\MLOps_Project\MLOps_Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "g:\mlops_project\mlops_project\src\mlProject\components\data_ingestion.py", line 36, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1266, in __init__
+    self._RealGetContents()
+  File "C:\Users\ADARSH\anaconda3\lib\zipfile.py", line 1333, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-08-24 17:06:47,540: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-24 17:06:47,540: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-24 17:06:47,543: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 17:06:47,545: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 17:06:47,546: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-24 17:06:47,630: INFO: common: created directory at: artifacts]
+[2025-08-24 17:06:47,631: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 17:06:48,915: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 556
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "84b9e7966f2735df18205bdc4d6ed3d825cfe4e00c8f0055337f04e507a4a731"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D06B:22E94F:1D08AE:4F8EBC:68AAF94F
+Accept-Ranges: bytes
+Date: Sun, 24 Aug 2025 11:36:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10241-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1756035409.936770,VS0,VE236
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 305de41cc2bd5bd5b55e65810bd7d75dac4b9d90
+Expires: Sun, 24 Aug 2025 11:41:49 GMT
+Source-Age: 0
+
+]
+[2025-08-24 17:06:48,960: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
