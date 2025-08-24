@@ -514,3 +514,9 @@ Source-Age: 0
 [2025-08-24 17:06:48,960: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-08-24 17:49:11,890: INFO: common: yaml file: G:\MLOps_Project\MLOps_Project\config\config.yaml loaded successfully]
+[2025-08-24 17:49:11,911: INFO: common: yaml file: G:\MLOps_Project\MLOps_Project\params.yaml loaded successfully]
+[2025-08-24 17:49:11,913: INFO: common: yaml file: G:\MLOps_Project\MLOps_Project\schema.yaml loaded successfully]
+[2025-08-24 17:49:11,918: INFO: common: created directory at: artifacts]
+[2025-08-24 17:49:11,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 17:49:11,924: INFO: 2366278714: File already exists of size: ~ 1 KB]
