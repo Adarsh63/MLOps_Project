@@ -520,3 +520,64 @@ x==========x]
 [2025-08-24 17:49:11,918: INFO: common: created directory at: artifacts]
 [2025-08-24 17:49:11,921: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-08-24 17:49:11,924: INFO: 2366278714: File already exists of size: ~ 1 KB]
+[2025-08-26 09:02:50,887: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-08-26 09:02:50,888: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-26 09:02:50,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:02:50,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:02:50,948: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:02:50,993: INFO: common: created directory at: artifacts]
+[2025-08-26 09:02:50,994: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-26 09:02:52,344: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 556
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "84b9e7966f2735df18205bdc4d6ed3d825cfe4e00c8f0055337f04e507a4a731"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B04C:14935B:43462:F4A9C:68AD2AE2
+Accept-Ranges: bytes
+Date: Tue, 26 Aug 2025 03:32:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10225-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1756179172.936739,VS0,VE251
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 69b09891a1cc460c8b5f6a25baf4a6e70b6a9ea7
+Expires: Tue, 26 Aug 2025 03:37:52 GMT
+Source-Age: 0
+
+]
+[2025-08-26 09:02:52,407: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-26 09:36:32,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:36:32,985: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:36:32,991: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:36:32,996: INFO: common: created directory at: artifacts]
+[2025-08-26 09:38:34,974: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:38:34,980: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:38:34,985: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:38:34,988: INFO: common: created directory at: artifacts]
+[2025-08-26 09:38:45,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:38:45,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:38:45,058: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:38:45,062: INFO: common: created directory at: artifacts]
+[2025-08-26 09:44:04,996: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:44:05,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:44:05,007: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:44:05,010: INFO: common: created directory at: artifacts]
+[2025-08-26 09:46:06,923: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:46:06,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:46:06,935: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:46:06,935: INFO: common: created directory at: artifacts]
+[2025-08-26 09:47:21,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 09:47:21,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 09:47:21,605: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-26 09:47:21,607: INFO: common: created directory at: artifacts]
