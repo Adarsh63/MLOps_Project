@@ -3,6 +3,12 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/Adarsh63/edureka_prcties/raw/refs/heads/main/2687_capstone_project.zip
+  source_URL: https://github.com/Adarsh63/edureka_prcties/blob/main/2687_capstone_project.zip?raw=true
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+   root_dir: artifacts/data_validation
+   unzip_data_dir: artifacts/data_ingestion/2687_capstone_project_dataset_v1_vv6_ahjq7xz (1).csv
+   STATUS_FILE: artifacts/data_validation/status.txt

@@ -1,1 +1,8 @@
-key: val
+COLUMNS:
+  YearsExperience: float64
+
+
+
+
+TARGET_COLUMN:
+  Salary : float64
