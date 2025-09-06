@@ -1,8 +1,6 @@
 COLUMNS:
   YearsExperience: float64
-
-
-
-
+  Salary: float64
+  
 TARGET_COLUMN:
-  Salary : float64
+  Salary: Salary

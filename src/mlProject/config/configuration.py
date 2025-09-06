@@ -1,10 +1,10 @@
 from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import DataIngestionConfig
-from mlProject.entity.config_entity import DataValidationConfig
-from pathlib import Path
+from mlProject.entity.config_entity import (DataIngestionConfig,
+                                            DataValidationConfig,
+                                            DataTransformationConfig,ModelTrainerConfig)
+import os 
 import sys
-import os
 
 # make sure Python knows about your src directory
 sys.path.append(os.path.abspath("src"))
@@ -55,3 +55,35 @@ class ConfigurationManager:
             )
 
             return data_validation_config
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path,
+        )
+
+        return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.ElasticNet
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path = config.train_data_path,
+            test_data_path = config.test_data_path,
+            model_name = config.model_name,
+            alpha = params.alpha,
+            l1_ratio = params.l1_ratio,
+            target_column = schema.Salary
+            
+        )
+
+        return model_trainer_config
