@@ -7,6 +7,9 @@ WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt
 
+# Install missing package explicitly (if not in requirements.txt)
+RUN pip install python-multipart
+
 # CMD ["python3", "app.py"]
 
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
