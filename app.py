@@ -32,3 +32,4 @@ def predict_form(request: Request, years_experience: float = Form(...)):
         "prediction.html",
         {"request": request, "prediction": float(prediction)}
     )
+
