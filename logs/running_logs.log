@@ -1884,3 +1884,237 @@ x==========x]
 [2025-09-07 00:47:25,616: INFO: common: created directory at: artifacts]
 [2025-09-07 00:47:25,618: INFO: common: created directory at: artifacts/model_evaluation]
 [2025-09-07 00:47:26,207: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-09-07 12:45:25,560: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-07 12:45:34,986: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-09-07 12:45:34,988: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-07 12:45:35,051: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:45:35,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:45:35,099: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:45:35,099: INFO: common: created directory at: artifacts]
+[2025-09-07 12:45:35,099: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-07 12:45:35,099: INFO: data_ingestion: File already exists of size: ~ 1 KB]
+[2025-09-07 12:45:35,163: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:45:35,163: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-09-07 12:45:35,174: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:45:35,178: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:45:35,181: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:45:35,182: INFO: common: created directory at: artifacts]
+[2025-09-07 12:45:35,183: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-07 12:45:35,261: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:45:35,261: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-09-07 12:45:35,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:45:35,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:45:35,294: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:45:35,296: INFO: common: created directory at: artifacts]
+[2025-09-07 12:45:35,298: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-07 12:45:35,326: INFO: data_transformation: Splited data into training and test sets]
+[2025-09-07 12:45:35,327: INFO: data_transformation: (22, 2)]
+[2025-09-07 12:45:35,327: INFO: data_transformation: (8, 2)]
+[2025-09-07 12:45:35,327: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:45:35,327: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-09-07 12:45:35,333: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:45:35,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:45:35,346: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:45:35,348: INFO: common: created directory at: artifacts]
+[2025-09-07 12:45:35,350: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-07 12:45:35,415: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:45:35,415: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-09-07 12:45:35,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:45:35,429: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:45:35,431: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:45:35,433: INFO: common: created directory at: artifacts]
+[2025-09-07 12:45:35,434: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-07 12:45:35,435: ERROR: main: "'ConfigBox' object has no attribute 'name'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\MLOps_Project\MLOps_Project\main.py", line 58, in <module>
+    data_ingestion.main()
+  File "g:\mlops_project\mlops_project\src\mlProject\pipeline\stage_05_model_evaluation.py", line 13, in main
+    model_evaluation_config = config.get_model_evaluation_config()
+  File "g:\mlops_project\mlops_project\src\mlProject\config\configuration.py", line 105, in get_model_evaluation_config
+    target_column = schema.name,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'name'"
+[2025-09-07 12:46:39,331: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-07 12:46:45,173: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-09-07 12:46:45,174: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-07 12:46:45,181: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:46:45,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:46:45,187: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:46:45,187: INFO: common: created directory at: artifacts]
+[2025-09-07 12:46:45,191: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-07 12:46:45,192: INFO: data_ingestion: File already exists of size: ~ 1 KB]
+[2025-09-07 12:46:45,196: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:46:45,196: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-09-07 12:46:45,209: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:46:45,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:46:45,214: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:46:45,215: INFO: common: created directory at: artifacts]
+[2025-09-07 12:46:45,217: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-07 12:46:45,233: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:46:45,233: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-09-07 12:46:45,242: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:46:45,247: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:46:45,249: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:46:45,250: INFO: common: created directory at: artifacts]
+[2025-09-07 12:46:45,251: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-07 12:46:45,262: INFO: data_transformation: Splited data into training and test sets]
+[2025-09-07 12:46:45,262: INFO: data_transformation: (22, 2)]
+[2025-09-07 12:46:45,269: INFO: data_transformation: (8, 2)]
+[2025-09-07 12:46:45,271: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:46:45,272: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-09-07 12:46:45,278: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:46:45,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:46:45,285: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:46:45,287: INFO: common: created directory at: artifacts]
+[2025-09-07 12:46:45,289: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-07 12:46:45,344: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:46:45,345: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-09-07 12:46:45,356: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:46:45,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:46:45,363: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:46:45,364: INFO: common: created directory at: artifacts]
+[2025-09-07 12:46:45,365: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-07 12:46:48,066: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-09-07 12:47:04,731: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:58:45,464: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-07 12:58:54,172: INFO: main: >>>>>> stage  started <<<<<<]
+[2025-09-07 12:58:54,172: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-07 12:58:54,184: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:58:54,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:58:54,194: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:58:54,198: INFO: common: created directory at: artifacts]
+[2025-09-07 12:58:54,271: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-07 12:58:56,694: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 556
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "84b9e7966f2735df18205bdc4d6ed3d825cfe4e00c8f0055337f04e507a4a731"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7FE9:726D1:1ACB34:497F67:68BD3438
+Accept-Ranges: bytes
+Date: Sun, 07 Sep 2025 07:28:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10225-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1757230137.955565,VS0,VE292
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a73ec694a944d24cf1de003057b1a741ff2cb594
+Expires: Sun, 07 Sep 2025 07:33:57 GMT
+Source-Age: 0
+
+]
+[2025-09-07 12:58:56,710: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:58:56,710: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-09-07 12:58:56,723: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:58:56,727: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:58:56,729: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:58:56,729: INFO: common: created directory at: artifacts]
+[2025-09-07 12:58:56,732: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-07 12:58:56,771: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:58:56,771: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-09-07 12:58:56,785: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:58:56,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:58:56,794: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:58:56,795: INFO: common: created directory at: artifacts]
+[2025-09-07 12:58:56,799: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-07 12:58:56,820: INFO: data_transformation: Splited data into training and test sets]
+[2025-09-07 12:58:56,821: INFO: data_transformation: (22, 2)]
+[2025-09-07 12:58:56,822: INFO: data_transformation: (8, 2)]
+[2025-09-07 12:58:56,824: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:58:56,825: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-09-07 12:58:56,835: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:58:56,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:58:56,844: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:58:56,847: INFO: common: created directory at: artifacts]
+[2025-09-07 12:58:56,850: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-07 12:58:56,924: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:58:56,924: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-09-07 12:58:56,933: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:58:56,936: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:58:56,939: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-07 12:58:56,941: INFO: common: created directory at: artifacts]
+[2025-09-07 12:58:56,942: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-07 12:58:59,896: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-09-07 12:59:19,421: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]

@@ -1,0 +1,14 @@
+artifact_uri: file:///G:/MLOps_Project/MLOps_Project/mlruns/0/2871a9bb6ef3435e9516b02bd183d601/artifacts
+end_time: 1757229424731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2871a9bb6ef3435e9516b02bd183d601
+run_name: grandiose-fowl-244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757229407806
+status: 3
+tags: []
+user_id: ADARSH1

@@ -1,0 +1,14 @@
+artifact_uri: file:///G:/MLOps_Project/MLOps_Project/mlruns/0/a083334e8a1f41779443801f01efa5c4/artifacts
+end_time: 1757230159415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a083334e8a1f41779443801f01efa5c4
+run_name: sneaky-cat-25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757230139734
+status: 3
+tags: []
+user_id: ADARSH1
