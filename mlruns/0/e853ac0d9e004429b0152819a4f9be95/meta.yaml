@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/MLOps_Project/MLOps_Project/mlruns/0/e853ac0d9e004429b0152819a4f9be95/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e853ac0d9e004429b0152819a4f9be95
+run_name: colorful-stoat-388
+run_uuid: e853ac0d9e004429b0152819a4f9be95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757233002293
+status: 1
+tags: []
+user_id: ADARSH1

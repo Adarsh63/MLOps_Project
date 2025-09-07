@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/MLOps_Project/MLOps_Project/mlruns/0/dcbf79ad1ca04b53886fc2d99f959421/artifacts
+end_time: 1757231849300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcbf79ad1ca04b53886fc2d99f959421
+run_name: caring-goose-444
+run_uuid: dcbf79ad1ca04b53886fc2d99f959421
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757231831254
+status: 3
+tags: []
+user_id: ADARSH1

@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/MLOps_Project/MLOps_Project/mlruns/0/0a9bdb60d6fb47be93ee4f65b5a06e0e/artifacts
+end_time: 1757234098123
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a9bdb60d6fb47be93ee4f65b5a06e0e
+run_name: silent-mare-202
+run_uuid: 0a9bdb60d6fb47be93ee4f65b5a06e0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757234023391
+status: 3
+tags: []
+user_id: ADARSH1
